@@ -1,1 +1,16 @@
 
+C++ Implementation for Two pass Assembler
+Assembler includes all the SIC/XE instructions and supports all four formats 1, 2, 3, 4, addressing modes and program relocation.It also includes all Machine-Independent Assembler Features-
+•	Literals
+•	Symbol Defining Statements 
+•	Expressions
+•	Program Blocks
+•	Control Sections
+
+Input to assembler- Assembler source program using the instruction set of SIC/XE.
+Output- Assembler will generate the following files as output-
+Pass 1 will generate a Symbol Table.
+Pass 1 will also generate Intermediate File for the Pass 2.
+Pass 2 will generate a listing file containing the input assembly code and address, block number, object code of each instruction.
+Pass 2 will also generate an object program. 
+An error file is also generated displaying the errors in the assembly program (if any).
